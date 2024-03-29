@@ -1,0 +1,29 @@
+/* Style du tableau */
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  
+  /* Style de l'en-tête du tableau */
+  .table thead th {
+    vertical-align: middle;
+    border-bottom-width: 2px;
+    font-weight: bold;
+  }
+  
+  /* Style des cellules du tableau */
+  .table td,
+  .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  /* Style des boutons d'action */
+  .btn {
+    margin-right: 5px;
+  }
+  .table-transparent {
+    opacity: 0.5;
+  }

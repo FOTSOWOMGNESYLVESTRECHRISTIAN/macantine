@@ -1,0 +1,73 @@
+/* Styles pour le formulaire d'ajout de plat avec animation de fond utilisant les couleurs de l'arc-en-ciel */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+body {
+  padding: 20px;
+  animation: backgroundAnimation 12s infinite;
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-color: #FF0000; /* Rouge */
+  }
+  14% {
+    background-color: #FF7F00; /* Orange */
+  }
+  28% {
+    background-color: #FFFF00; /* Jaune */
+  }
+  42% {
+    background-color: #00FF00; /* Vert */
+  }
+  57% {
+    background-color: #0000FF; /* Bleu */
+  }
+  71% {
+    background-color: #4B0082; /* Indigo */
+  }
+  85% {
+    background-color: #8A2BE2; /* Violet */
+  }
+  100% {
+    background-color: #FF0000; /* Rouge */
+  }
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

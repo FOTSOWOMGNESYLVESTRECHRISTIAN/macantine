@@ -1,0 +1,20 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid rgb(226, 212, 212);
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .bg-primary {
+    background-color: #11c41d !important;
+    color: #fff;
+  }
+  
+  .reservation-button {
+    margin-top: 10px;
+    float: right;
+  }
